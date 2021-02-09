@@ -1,0 +1,32 @@
+body{
+  background-color: rgba(219, 34, 105, 0.973);
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h1 {
+    color: #ca9e0d;
+}
+
+h2 {
+    color:  #cfb45b;
+}
+@keyframes example {
+  0%   {background-color:rgb(12, 224, 196); left:0px; top:0px;}
+  25%  {background-color:rgba(25, 236, 71, 0.966); left:200px; top:0px;}
+  50%  {background-color:rgb(125, 252, 7); left:200px; top:200px;}
+  75%  {background-color:rgb(249, 253, 10); left:0px; top:200px;}
+  100% {background-color:rgb(224, 191, 2); left:0px; top:0px;}
+}
+
+
+div {
+  width: 1800px;
+  height: 80px;
+  position: relative;
+  background-color: rgba(219, 34, 105, 0.973);
+  animation-name: example;
+  animation-duration: 4s;
+}
